@@ -1,0 +1,11 @@
+Pruebas de rutas en el navegador
+
+1. Ruta: http://localhost:3000
+   Al acceder a esta ruta se muestra la página principal de la aplicación. Es la ruta raíz configurada en el servidor.
+
+   2. Ruta: http://localhost:3000/saludo
+      Al ingresar a esta ruta se muestra un mensaje de saludo definido en el servidor, por ejemplo: "Hola, bienvenido".
+
+      3. Ruta: http://localhost:3000/mensaje/juan
+         Esta ruta utiliza un parámetro dinámico. Al acceder con el nombre "juan", el servidor responde con un mensaje personalizado, por ejemplo: "Hola Juan" o "Mensaje para Juan".
+         
